@@ -19,6 +19,8 @@ namespace MVC_Start.Controllers
       return View();
     }
 
+
+
     public IActionResult Contact()
     {
       GuestContact contact = new GuestContact();
